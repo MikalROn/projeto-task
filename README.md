@@ -59,7 +59,7 @@ API REST desenvolvida em Spring Boot, que gerencia os dados e a lógica do siste
    ```
 3. Execute o projeto:
 
-> Use npm start para que rode as configurações de proxy.
+   > Use npm start para que rode as configurações de proxy.
 
    ```bash
    npm run start
