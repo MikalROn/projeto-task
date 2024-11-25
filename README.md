@@ -31,7 +31,8 @@ API REST desenvolvida em Spring Boot, que gerencia os dados e a lógica do siste
 - **Criação de Tarefas**: Adicione novas tarefas com título e descrição.
 - **Edição de Tarefas**: Atualize os detalhes de uma tarefa existente.
 - **Exclusão de Tarefas**: Remova tarefas que não são mais necessárias.
-
+- **Concluir tarefas**: Atualiza tarefa como concluida 
+- **Desfazer Conclusão de Tarefas**: Permite valtar atras na conclusão da tarefa
 ---
 
 ## Instalação
@@ -57,17 +58,13 @@ API REST desenvolvida em Spring Boot, que gerencia os dados e a lógica do siste
    npm install
    ```
 3. Execute o projeto:
+
+> Use npm start para que rode as configurações de proxy.
+
    ```bash
-   ng serve
+   npm run start
    ```
 4. Acesse a interface no navegador: [http://localhost:4200](http://localhost:4200)
-
----
-
-## Estrutura de Pastas
-
-- **task-backend**: Contém o código da API em Java.
-- **task-frontend**: Contém o código da interface de usuário em Angular.
 
 ---
 
