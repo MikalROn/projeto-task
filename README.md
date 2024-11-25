@@ -7,11 +7,10 @@ Gerenciador de Tarefas desenvolvido com **Spring Boot** no backend e **Angular**
 
 ## Tecnologias Utilizadas
 
-- **Backend**: Java com Spring Boot
-- **Frontend**: Angular
-- **Banco de Dados**: PostgreSQL (ou o banco configurado no backend)
+- **Backend**: Java com Spring Boot, Thunder Client (para testes)
+- **Frontend**: Angular, Bootstrap, Angular Material
+- **Banco de Dados**: MySQL 
 - **Gerenciamento de Dependências**: Maven (backend) e NPM (frontend)
-
 ---
 
 ## Estrutura do Projeto
